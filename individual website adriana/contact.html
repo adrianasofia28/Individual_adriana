@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adriana Sofia</title>
+</head>
+<style>
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizzing: border-box;
+}
+body{
+   font-style: italic;
+}
+ nav ul{
+   float: right;
+   margin-right: 450px;
+}
+nav{
+   background: #FAFAD2;
+   height: 50px;
+   width: 100%;
+   position: fixed;
+}
+nav ul li{
+   display: inline-block;
+   line-height: 30px;
+   margin: 0 0px;
+}
+nav ul li a{
+        list-style: none;
+	display:inline-block;
+	padding: 7px 30px;
+	padding-top: 7px;
+	color: darkslategray;
+	font-size: 24px;
+	font-style: italic;
+	cursor: pointer;
+	border:2px solid white;
+	font-size: 20px;
+} 
+
+nav ul li:hover{
+	background: lightgray;
+}
+body {
+  background-image: url("22.jpg");
+}
+.leftside{
+	position: absolute;
+	top:40%;
+}
+.leftside li{
+	list-style-type: none;
+	padding: 10px;
+	transition: .6s;
+	Color: gray;
+	position: relative;
+}
+.leftside li i{
+	font-size: 40px;
+} 
+.leftside li:hover{
+	padding: 20px 40px;
+}
+.contact-form{
+	width: 85%;
+	max-width: 600px;
+	background: #f1f1f1;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	transform: tranlate(-50%,-50%);
+	padding: 10px 10px;
+	padding-left: 0px 10px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+	font-family: "Montserrat",sans-serif;
+}
+.contact-form h1{
+	margin-top: 0;
+	font-weight: 200;
+}
+.txtb{
+	border:1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+}
+.txtb label{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px
+}
+.txtb input,.txtb texterea{
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+.btn{
+	display: block;
+	background: #9b59b6;
+	padding: 14px 0;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 100%;
+}
+
+</style>
+<body>
+	<nav>
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="About me.html">About Me</a></li>
+	  <li><a href="">Memories</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+	</ul>
+	</nav>
+
+<br>
+<br>
+	<div class="contact-form">
+	<h1>Contact Us</h1>
+		<div class="txtb">
+		<label>Name:</label>
+		<input type="Name" name="" value"" placeholder="Enter Your Name">
+		</div>
+
+		<div class="txtb">
+		<label>Email :</label>
+		<input type="email" name="" value="" placeholder="Enter Your Email">
+		</div>
+
+		<div class="txtb">
+		<label>Phone Number  :</label>
+		<input type="text" name="" value="" placeholder="Enter Your Phone Number">
+		</div>
+		
+		<div class="txtb">
+		<label>Message :</label>
+		<texterea></texterea>
+		</div>
+		<a  class="btn">Send</a>
+
+</div>
+
+</body>
+</html>
